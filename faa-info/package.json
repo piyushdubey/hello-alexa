@@ -1,0 +1,41 @@
+{
+  "name": "faa-info",
+  "version": "1.0.0",
+  "description": "An app for Amazon Alexa to get flight information using FAA codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/piyushdubey/hello-alexa.git"
+  },
+  "keywords": [
+    "alexa",
+    "amazon",
+    "speech",
+    "voice",
+    "node",
+    "java",
+    "javascript",
+    "ask",
+    "alexa",
+    "skill",
+    "kit"
+  ],
+  "author": "Piyush Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushdubey/hello-alexa/issues"
+  },
+  "homepage": "https://github.com/piyushdubey/hello-alexa#readme",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "lodash": "^4.16.1",
+    "mocha": "^3.0.2",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
+}
